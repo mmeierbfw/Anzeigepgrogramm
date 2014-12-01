@@ -693,7 +693,6 @@
       ParentBackground = False
       TabOrder = 0
       Visible = False
-      ExplicitWidth = 286
       object lsonstiges: TLabel
         AlignWithMargins = True
         Left = 15
@@ -723,7 +722,6 @@
         Caption = 'Updates pr'#252'fen'
         TabOrder = 0
         TabStop = False
-        ExplicitWidth = 266
       end
     end
     object pimage: TPanel
@@ -744,7 +742,6 @@
       TabOrder = 1
       VerticalAlignment = taAlignBottom
       Visible = False
-      ExplicitWidth = 286
       object IStatusok: TImage
         Left = 0
         Top = 56
@@ -933,7 +930,6 @@
         TabOrder = 0
         VerticalAlignment = taAlignTop
         Visible = False
-        ExplicitWidth = 276
         object iupdate: TImage
           Left = 10
           Top = 10
@@ -1512,11 +1508,8 @@
     ActivePage = tabanzeigen
     Align = alClient
     TabOrder = 2
-    ExplicitLeft = 168
-    ExplicitWidth = 876
     object tabanzeigen: TTabSheet
       Caption = 'tabanzeigen'
-      ExplicitWidth = 740
       object NxFlipPanel1: TNxFlipPanel
         Left = 0
         Top = 0
@@ -1537,7 +1530,7 @@
           FFFFFFF8FFFFFFF0F0FFFFF0E0FFE0D0C0FF604830FFC0B0A0FFFFFFFFFFFFFF
           FFFFFFFFFFFFFFFFFFFFFFF8FFFFFFF0F0FFF0F0E0FF604830FFC0B0A040C0B0
           A0FFC0B0A0FFC0A8A0FFC0A8A0FFC0A8A0FFC0A890FFC0A090FF60483040}
-        Color = clRed
+        Color = clGradientInactiveCaption
         ExpandGlyph.Data = {
           7A010000424D7A01000000000000360000002800000009000000090000000100
           2000000000004401000000000000000000000000000000000000604830406048
@@ -1556,7 +1549,6 @@
         HeaderFont.Height = -11
         HeaderFont.Name = 'Tahoma'
         HeaderFont.Style = []
-        ExplicitWidth = 740
         FullHeight = 0
       end
       object ptabellen: TNxPageControl
@@ -1576,7 +1568,6 @@
         TabHeight = 25
         TabMaxWidth = 120
         TabStyle = tsOneNote
-        ExplicitWidth = 740
         object tabzwischen: TNxTabSheet
           Caption = 'Zwischenablesungen'
           PageIndex = 0
@@ -1586,9 +1577,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridzwi: TNextDBGrid
             Left = 0
             Top = 0
@@ -1612,7 +1600,7 @@
             SequencedScroll = True
             object zwidokid: TNxDBTextColumn
               AutoEdit = True
-              DefaultWidth = 63
+              DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1635,7 +1623,7 @@
               AutoExecute = True
             end
             object zwilg: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 60
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1652,11 +1640,11 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 60
+              Width = 87
               FieldName = 'Liegenschaft'
             end
             object zwinutzernummer: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 88
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1699,7 +1687,7 @@
               FieldName = 'Dateiname'
             end
             object zwiposteingang: TNxDBTextColumn
-              DefaultWidth = 72
+              DefaultWidth = 89
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1717,11 +1705,11 @@
               Position = 4
               Sorted = True
               SortType = stDate
-              Width = 89
+              Width = 88
               FieldName = 'Posteingang'
             end
             object zwiabrechnungsende: TNxDBTextColumn
-              DefaultWidth = 71
+              DefaultWidth = 86
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1738,11 +1726,11 @@
               ParentFont = False
               Position = 5
               SortType = stDate
-              Width = 86
+              Width = 88
               FieldName = 'Abrechnungsende'
             end
             object zwiname: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 88
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1763,7 +1751,7 @@
               FieldName = 'Nutzername'
             end
             object NxDBTextColumn24: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 82
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1780,12 +1768,12 @@
               ParentFont = False
               Position = 7
               SortType = stAlphabetic
-              Width = 82
+              Width = 88
               WrapKind = wkNone
               FieldName = 'vertragsende'
             end
             object NxDBTextColumn32: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 86
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1802,7 +1790,7 @@
               ParentFont = False
               Position = 8
               SortType = stAlphabetic
-              Width = 86
+              Width = 88
               FieldName = 'ablesedatum'
             end
             object zwinotizen: TNxDBMemoColumn
@@ -1869,7 +1857,7 @@
               FieldName = 'erledigt'
             end
             object NxDBTextColumn33: TNxDBTextColumn
-              DefaultWidth = 65
+              DefaultWidth = 88
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1912,7 +1900,7 @@
             end
             object zwivollbild: TNxDBImageColumn
               DefaultValue = '1'
-              DefaultWidth = 65
+              DefaultWidth = 90
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1930,12 +1918,12 @@
               ParentCellColor = True
               Position = 14
               SortType = stNumeric
-              Width = 90
+              Width = 88
               Transparent = True
             end
             object zwiimage: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 67
+              DefaultWidth = 105
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -1952,7 +1940,7 @@
               ParentFont = False
               Position = 15
               SortType = stNumeric
-              Width = 105
+              Width = 88
               Transparent = True
             end
           end
@@ -1966,9 +1954,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridmon: TNextDBGrid
             Left = 0
             Top = 0
@@ -2330,9 +2315,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridnutzerliste: TNextDBGrid
             Left = 0
             Top = 0
@@ -2598,9 +2580,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridenergie: TNextDBGrid
             Left = 0
             Top = 0
@@ -2614,7 +2593,7 @@
             TabStop = True
             DataSource = formdb.dsen
             object NxDBTextColumn1: TNxDBTextColumn
-              DefaultWidth = 25
+              DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2637,7 +2616,7 @@
               FieldName = 'ablagenr'
             end
             object NxDBTextColumn2: TNxDBTextColumn
-              DefaultWidth = 64
+              DefaultWidth = 81
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2654,7 +2633,7 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 81
+              Width = 113
               FieldName = 'Liegenschaft'
             end
             object NxDBMemoColumn1: TNxDBMemoColumn
@@ -2680,7 +2659,7 @@
               FieldName = 'Dateiname'
             end
             object NxDBTextColumn4: TNxDBTextColumn
-              DefaultWidth = 67
+              DefaultWidth = 109
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2697,7 +2676,7 @@
               ParentFont = False
               Position = 2
               SortType = stAlphabetic
-              Width = 109
+              Width = 113
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn5: TNxDBTextColumn
@@ -2892,7 +2871,7 @@
             end
             object NxDBImageColumn5: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 29
+              DefaultWidth = 109
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2909,12 +2888,12 @@
               ParentFont = False
               Position = 13
               SortType = stNumeric
-              Width = 109
+              Width = 113
               Transparent = True
             end
             object NxDBImageColumn1: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 116
+              DefaultWidth = 136
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2931,7 +2910,7 @@
               ParentFont = False
               Position = 14
               SortType = stNumeric
-              Width = 136
+              Width = 113
               Transparent = True
             end
           end
@@ -2945,9 +2924,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridrek: TNextDBGrid
             Left = 0
             Top = 0
@@ -2962,7 +2938,7 @@
             DataSource = formdb.dsrekl
             SequencedScroll = True
             object NxDBTextColumn3: TNxDBTextColumn
-              DefaultWidth = 48
+              DefaultWidth = 55
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -2981,11 +2957,10 @@
               Sorted = True
               SortKind = skDescending
               SortType = stNumeric
-              Width = 55
               FieldName = 'ablagenr'
             end
             object NxDBTextColumn6: TNxDBTextColumn
-              DefaultWidth = 75
+              DefaultWidth = 81
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3006,7 +2981,7 @@
               FieldName = 'Liegenschaft'
             end
             object NxDBTextColumn7: TNxDBTextColumn
-              DefaultWidth = 73
+              DefaultWidth = 82
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3023,11 +2998,11 @@
               ParentFont = False
               Position = 2
               SortType = stAlphabetic
-              Width = 82
+              Width = 81
               FieldName = 'Nutzernummer'
             end
             object NxDBTextColumn8: TNxDBTextColumn
-              DefaultWidth = 75
+              DefaultWidth = 73
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3044,7 +3019,7 @@
               ParentFont = False
               Position = 3
               SortType = stAlphabetic
-              Width = 73
+              Width = 81
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn9: TNxDBTextColumn
@@ -3065,10 +3040,11 @@
               ParentFont = False
               Position = 4
               SortType = stAlphabetic
+              Width = 81
               FieldName = 'Abrechnungsende'
             end
             object NxDBTextColumn19: TNxDBTextColumn
-              DefaultWidth = 74
+              DefaultWidth = 84
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3085,7 +3061,6 @@
               ParentFont = False
               Position = 5
               SortType = stAlphabetic
-              Width = 84
               FieldName = 'auftragsnr'
             end
             object NxDBMemoColumn5: TNxDBMemoColumn
@@ -3110,7 +3085,7 @@
               FieldName = 'notizen'
             end
             object NxDBTextColumn20: TNxDBTextColumn
-              DefaultWidth = 75
+              DefaultWidth = 73
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3126,7 +3101,7 @@
               ParentFont = False
               Position = 7
               SortType = stAlphabetic
-              Width = 73
+              Width = 81
               FieldName = 'einbaudatum'
             end
             object NxDBTextColumn21: TNxDBTextColumn
@@ -3170,7 +3145,7 @@
               FieldName = 'dateiname'
             end
             object NxDBTextColumn37: TNxDBTextColumn
-              DefaultWidth = 37
+              DefaultWidth = 83
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3187,10 +3162,10 @@
               ParentFont = False
               Position = 10
               SortType = stAlphabetic
-              Width = 83
+              Width = 81
             end
             object NxDBTextColumn31: TNxDBTextColumn
-              DefaultWidth = 37
+              DefaultWidth = 79
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3207,11 +3182,11 @@
               ParentFont = False
               Position = 11
               SortType = stAlphabetic
-              Width = 79
+              Width = 81
             end
             object NxDBImageColumn4: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 94
+              DefaultWidth = 82
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3228,12 +3203,12 @@
               ParentFont = False
               Position = 12
               SortType = stNumeric
-              Width = 82
+              Width = 81
               Transparent = True
             end
             object NxDBImageColumn2: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 77
+              DefaultWidth = 102
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3250,7 +3225,7 @@
               ParentFont = False
               Position = 13
               SortType = stNumeric
-              Width = 102
+              Width = 81
               Transparent = True
             end
           end
@@ -3264,9 +3239,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridverträge: TNextDBGrid
             Left = 0
             Top = 0
@@ -3289,7 +3261,7 @@
             SequencedScroll = True
             object NxDBTextColumn10: TNxDBTextColumn
               AutoEdit = True
-              DefaultWidth = 19
+              DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3312,7 +3284,7 @@
               AutoExecute = True
             end
             object NxDBTextColumn38: TNxDBTextColumn
-              DefaultWidth = 52
+              DefaultWidth = 48
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3329,7 +3301,7 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 48
+              Width = 78
               FieldName = 'Liegenschaft'
             end
             object NxDBMemoColumn2: TNxDBMemoColumn
@@ -3355,7 +3327,7 @@
               FieldName = 'Dateiname'
             end
             object NxDBTextColumn40: TNxDBTextColumn
-              DefaultWidth = 53
+              DefaultWidth = 77
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3373,11 +3345,11 @@
               Position = 2
               Sorted = True
               SortType = stDate
-              Width = 77
+              Width = 79
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn41: TNxDBTextColumn
-              DefaultWidth = 45
+              DefaultWidth = 78
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3398,7 +3370,7 @@
               FieldName = 'Abrechnungsende'
             end
             object NxDBTextColumn43: TNxDBTextColumn
-              DefaultWidth = 53
+              DefaultWidth = 77
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3415,12 +3387,12 @@
               ParentFont = False
               Position = 6
               SortType = stAlphabetic
-              Width = 77
+              Width = 79
               WrapKind = wkNone
               FieldName = 'vertragsende'
             end
             object NxDBTextColumn44: TNxDBTextColumn
-              DefaultWidth = 54
+              DefaultWidth = 76
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3437,7 +3409,7 @@
               ParentFont = False
               Position = 7
               SortType = stAlphabetic
-              Width = 76
+              Width = 79
               FieldName = 'ablesedatum'
             end
             object NxDBMemoColumn8: TNxDBMemoColumn
@@ -3536,7 +3508,7 @@
               FieldName = 'vertragstyp'
             end
             object NxDBTextColumn48: TNxDBTextColumn
-              DefaultWidth = 74
+              DefaultWidth = 76
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3553,7 +3525,7 @@
               ParentFont = False
               Position = 12
               SortType = stAlphabetic
-              Width = 76
+              Width = 78
               FieldName = 'typ'
             end
             object NxDBTextColumn47: TNxDBTextColumn
@@ -3579,7 +3551,7 @@
             end
             object NxDBImageColumn9: TNxDBImageColumn
               DefaultValue = '1'
-              DefaultWidth = 76
+              DefaultWidth = 77
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3597,12 +3569,12 @@
               ParentCellColor = True
               Position = 14
               SortType = stNumeric
-              Width = 77
+              Width = 79
               Transparent = True
             end
             object NxDBImageColumn8: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 52
+              DefaultWidth = 103
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3619,7 +3591,7 @@
               ParentFont = False
               Position = 15
               SortType = stNumeric
-              Width = 103
+              Width = 79
               Transparent = True
             end
           end
@@ -3633,9 +3605,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridsonstiges: TNextDBGrid
             Left = 0
             Top = 0
@@ -3648,7 +3617,7 @@
             TabOrder = 0
             TabStop = True
             object NxDBTextColumn42: TNxDBTextColumn
-              DefaultWidth = 57
+              DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3671,7 +3640,7 @@
               FieldName = 'ablagenr'
             end
             object NxDBTextColumn49: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 71
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3688,7 +3657,7 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 71
+              Width = 99
               FieldName = 'Liegenschaft'
             end
             object NxDBMemoColumn9: TNxDBMemoColumn
@@ -3733,7 +3702,7 @@
               FieldName = 'nutzernummer'
             end
             object NxDBTextColumn50: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 93
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3750,11 +3719,11 @@
               ParentFont = False
               Position = 2
               SortType = stAlphabetic
-              Width = 93
+              Width = 100
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn51: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 98
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3772,7 +3741,7 @@
               Position = 5
               Sorted = True
               SortType = stAlphabetic
-              Width = 98
+              Width = 100
               FieldName = 'Abrechnungsende'
             end
             object NxDBTextColumn52: TNxDBTextColumn
@@ -3945,7 +3914,7 @@
             end
             object NxDBImageColumn12: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 58
+              DefaultWidth = 101
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3962,12 +3931,12 @@
               ParentFont = False
               Position = 14
               SortType = stNumeric
-              Width = 101
+              Width = 100
               Transparent = True
             end
             object NxDBImageColumn11: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 59
+              DefaultWidth = 119
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -3984,7 +3953,7 @@
               ParentFont = False
               Position = 15
               SortType = stNumeric
-              Width = 119
+              Width = 100
               Transparent = True
             end
           end
@@ -3998,9 +3967,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridanforderungen: TNextDBGrid
             Left = 0
             Top = 0
@@ -4013,9 +3979,6 @@
             TabOrder = 0
             TabStop = True
             DataSource = formdb.dsanforderungen
-            ExplicitTop = 113
-            ExplicitWidth = 740
-            ExplicitHeight = 505
             object NxDBTextColumn60: TNxDBTextColumn
               DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
@@ -4057,7 +4020,7 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 46
+              Width = 73
               FieldName = 'Liegenschaft'
             end
             object NxDBMemoColumn11: TNxDBMemoColumn
@@ -4119,7 +4082,7 @@
               ParentFont = False
               Position = 2
               SortType = stAlphabetic
-              Width = 70
+              Width = 74
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn64: TNxDBTextColumn
@@ -4141,7 +4104,7 @@
               Position = 5
               Sorted = True
               SortType = stAlphabetic
-              Width = 76
+              Width = 74
               FieldName = 'Abrechnungsende'
             end
             object NxDBTextColumn65: TNxDBTextColumn
@@ -4352,7 +4315,7 @@
               ParentFont = False
               Position = 15
               SortType = stNumeric
-              Width = 70
+              Width = 74
               Transparent = True
             end
             object NxDBImageColumn15: TNxDBImageColumn
@@ -4374,7 +4337,7 @@
               ParentFont = False
               Position = 16
               SortType = stNumeric
-              Width = 107
+              Width = 74
               Transparent = True
             end
           end
@@ -4388,9 +4351,6 @@
           TabFont.Height = -13
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
-          ExplicitTop = 21
-          ExplicitWidth = 740
-          ExplicitHeight = 618
           object gridangebote: TNextDBGrid
             Left = 0
             Top = 0
@@ -4403,7 +4363,7 @@
             TabOrder = 0
             TabStop = True
             object NxDBTextColumn71: TNxDBTextColumn
-              DefaultWidth = 57
+              DefaultWidth = 0
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4427,7 +4387,7 @@
               FieldName = 'ablagenr'
             end
             object NxDBTextColumn72: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 71
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4445,7 +4405,7 @@
               ParentFont = False
               Position = 1
               SortType = stAlphabetic
-              Width = 71
+              Width = 99
               FieldName = 'Liegenschaft'
             end
             object NxDBMemoColumn13: TNxDBMemoColumn
@@ -4491,7 +4451,7 @@
               FieldName = 'nutzernummer'
             end
             object NxDBTextColumn74: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 93
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4509,11 +4469,11 @@
               ParentFont = False
               Position = 2
               SortType = stAlphabetic
-              Width = 93
+              Width = 100
               FieldName = 'Posteingang'
             end
             object NxDBTextColumn75: TNxDBTextColumn
-              DefaultWidth = 58
+              DefaultWidth = 98
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4533,7 +4493,7 @@
               Position = 5
               Sorted = True
               SortType = stAlphabetic
-              Width = 98
+              Width = 100
               FieldName = 'Abrechnungsende'
             end
             object NxDBTextColumn76: TNxDBTextColumn
@@ -4706,7 +4666,7 @@
             end
             object NxDBImageColumn17: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 58
+              DefaultWidth = 101
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4723,12 +4683,12 @@
               ParentFont = False
               Position = 14
               SortType = stNumeric
-              Width = 101
+              Width = 100
               Transparent = True
             end
             object NxDBImageColumn18: TNxDBImageColumn
               DefaultValue = '0'
-              DefaultWidth = 59
+              DefaultWidth = 119
               Font.Charset = DEFAULT_CHARSET
               Font.Color = 6908265
               Font.Height = -13
@@ -4746,7 +4706,7 @@
               ParentFont = False
               Position = 15
               SortType = stNumeric
-              Width = 119
+              Width = 100
               Transparent = True
             end
           end
@@ -4761,15 +4721,13 @@
           TabFont.Name = 'Tahoma'
           TabFont.Style = []
           ExplicitTop = 0
-          ExplicitWidth = 740
-          ExplicitHeight = 619
+          ExplicitHeight = 611
         end
       end
     end
     object tabvollbild: TTabSheet
       Caption = 'tabvollbild'
       ImageIndex = 1
-      ExplicitWidth = 740
     end
   end
 end
