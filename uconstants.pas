@@ -5,9 +5,17 @@ interface
 uses ubaseconstants;
 
 type
-  anzeigeconstants = class(Tbaseconstants)
+  tconst = class(Tbaseconstants);
 
-  end;
+const
+  keinekdn          = 'keine Kundennummer ausgewählt';
+  sachbearbeiter_id = 'sachbearbeiter_id';
+  ablagenr          = 'ablagenr';
+  falschesFormat    = 'Datum als ttmmjj';
+  ungueltigDatum    = 'ungültiges Datum';
+  aenderungsdatei   = 'aenderung.txt';
+  auftragsdatei     = 'auftrag.txt';
+  programmname      = 'Anzeigeprogramm';
 
 implementation
 
