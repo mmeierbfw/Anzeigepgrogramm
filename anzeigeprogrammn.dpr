@@ -18,7 +18,8 @@ uses
   uframezwischen in '..\Dokumentverwaltung\uframezwischen.pas' {framezwischen: TFrame},
   uftpconnector in '..\neueftpverbindung\uftpconnector.pas' {formftp},
   uframeauftrag in '..\sources\uframeauftrag.pas' {frameauftrag: TFrame},
-  uflippanels in 'uflippanels.pas' {Frame1: TFrame};
+  uflippanels in 'uflippanels.pas' {Frame1: TFrame},
+  ucollector in 'ucollector.pas';
 
 {$R *.res}
 
